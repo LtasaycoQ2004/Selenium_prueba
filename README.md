@@ -1,6 +1,9 @@
 # Selenium_prueba
 
+pip install selenium
 pip install pytest
+
+
 ejecucion
 
 
