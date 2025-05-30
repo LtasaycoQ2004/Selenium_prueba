@@ -1,27 +1,4 @@
 import {
-  AngularFireAuth,
-  LANGUAGE_CODE,
-  PERSISTENCE,
-  SETTINGS,
-  TENANT_ID,
-  USE_DEVICE_LANGUAGE,
-  USE_EMULATOR,
-  ɵauthFactory
-} from "./chunk-CVEAOR6T.js";
-import "./chunk-MA6FKRUH.js";
-import {
-  isPlatformServer
-} from "./chunk-VEEFDYZ4.js";
-import {
-  FIREBASE_APP_NAME,
-  FIREBASE_OPTIONS,
-  ɵcacheInstance,
-  ɵfirebaseAppFactory
-} from "./chunk-2BRTKTT5.js";
-import {
-  firebase
-} from "./chunk-EDM7KKXN.js";
-import {
   AbstractUserDataWriter,
   Bytes,
   DatabaseId,
@@ -88,8 +65,31 @@ import {
   waitForPendingWrites,
   where
 } from "./chunk-MXUS34F7.js";
+import {
+  AngularFireAuth,
+  LANGUAGE_CODE,
+  PERSISTENCE,
+  SETTINGS,
+  TENANT_ID,
+  USE_DEVICE_LANGUAGE,
+  USE_EMULATOR,
+  ɵauthFactory
+} from "./chunk-5OZC7DOK.js";
+import "./chunk-PBHMZ3ON.js";
+import {
+  isPlatformServer
+} from "./chunk-VEEFDYZ4.js";
 import "./chunk-6O6QQTA7.js";
 import "./chunk-S4LMNBXO.js";
+import {
+  FIREBASE_APP_NAME,
+  FIREBASE_OPTIONS,
+  ɵcacheInstance,
+  ɵfirebaseAppFactory
+} from "./chunk-2BRTKTT5.js";
+import {
+  firebase
+} from "./chunk-EDM7KKXN.js";
 import {
   VERSION,
   keepUnstableUntilFirst,
