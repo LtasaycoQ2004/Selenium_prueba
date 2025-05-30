@@ -14,7 +14,7 @@ logger = logging.getLogger()
 @pytest.fixture
 def driver():
     options = Options()
-    options.add_argument('--headless')  # Modo headless, puedes comentar esta línea para ver el navegador
+    options.add_argument('--headless')  # esta opcion nos permite ignorar la ventana osea si eliminas esta linea veras el proceso en tiempo real
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     
